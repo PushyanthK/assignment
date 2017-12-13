@@ -1,0 +1,13 @@
+<div [ngClass] = "assgnClass">
+<p [ngStyle] = "assgnStyle">My Assignment</p>
+<input (keyup)="onKey($event)">
+<p>{{values}}</p>
+
+<button (click)="clickMessage()">Click me!</button>
+{{message}}
+<br/>
+<br/>
+<button (click)="disMessage()">Click me as well!</button>
+{{message2}}
+</div>
+
